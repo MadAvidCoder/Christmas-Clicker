@@ -16,7 +16,7 @@ export default function Home() {
             <p className={"text-3xl font-bold self-center"}>Count: {count}</p>
             <Clicker onClick={() => {setCount(count + 1)}} />
           </div>
-          <div style={{ height: 100, overflow: "hidden" }}></div>
+          <div style={{ height: "500px", overflow: "hidden" }}></div>
         </main>
       </div>
     </>
