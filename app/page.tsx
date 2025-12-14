@@ -9,13 +9,14 @@ export default function Home() {
   return (
     <>
       <SnowEffect />
-      <div className="">
+      <div className="" style={{overflow: "hidden"}}>
         <main className="">
           <div className="flex flex-col items-center gap-5 text-center sm:items-start sm:text-left">
             <h1 className={"text-6xl self-center my-7"}>Haxmas Day 1 - Christmas Clicker</h1>
             <p className={"text-3xl font-bold self-center"}>Count: {count}</p>
             <Clicker onClick={() => {setCount(count + 1)}} />
           </div>
+          <div style={{ height: 100, overflow: "hidden" }}></div>
         </main>
       </div>
     </>
