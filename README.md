@@ -1,5 +1,5 @@
 # Haxmas Day 1 - Christmas Clicker
-A simple clicker game, built for Hack Club Haxmas 2025!
+A simple clicker game, built for [Hack Club](https://hackclub.com/) [Haxmas](https://haxmas.hackclub.com/landing) 2025!
 
 Click the present to increase the count, while you watch the falling snow!
 
